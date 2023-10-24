@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="get_started">#2DADDD</color>
+    <color name="home_bg_two">#112047</color>
+    <color name="home_bg_one">#278CC1</color>
+    <color name="icon_color">#707070</color>
+    <color name="backgroud_color">#0D1F42</color>
+
+    
+
+
+</resources>

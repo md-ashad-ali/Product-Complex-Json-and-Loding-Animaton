@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:cardCornerRadius="15dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="5dp"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/image_fm"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_launcher_background"
+                    android:scaleType="centerCrop"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="140dp"
+                >
+                <TextView
+                    android:id="@+id/name_fm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="You Phone Name ultra"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:lines="1"
+                    android:layout_marginTop="10dp"
+
+                    />
+                <TextView
+                    android:id="@+id/price_fm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="price: $699.4"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+
+                    />
+                <TextView
+                    android:id="@+id/rating_fm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Raditn: 2.4"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
